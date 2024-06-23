@@ -15,7 +15,6 @@ resetElement.addEventListener("click",reset);
 function guessNumber(){
   let guess = parseInt(inputElement.value);
   if(isNaN(guess)){
-    resultElement.innerHTML = '';
     alert("Please enter a number!!!");
   } else{
     if(guess<low || guess>high){
