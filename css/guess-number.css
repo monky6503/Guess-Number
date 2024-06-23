@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #FFF2E1;
+}
+main .container {
+  width: 50%;
+  background: linear-gradient(to bottom, #CDFADB, #F6FDC3, #FFCF96, #FF8080);
+  border-radius: 20px;
+}
+main .container h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+main .container .result {
+  margin-top: 50px;
+  font-size: 30px;
+}/*# sourceMappingURL=guess-number.css.map */
