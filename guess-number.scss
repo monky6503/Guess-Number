@@ -17,7 +17,7 @@ main{
   align-items: center;
   background-color: #FFF2E1;
   .container{
-    width: 50%;
+    width: 45%;
     background: linear-gradient(to bottom,#CDFADB,#F6FDC3,#FFCF96,#FF8080);
     border-radius: 20px;
     h1{
@@ -25,8 +25,37 @@ main{
       margin:20px 0;
     }
     .result {
-      margin-top: 50px;
+      margin: 30px 0;
       font-size: 30px;
+    }
+  }
+}
+
+@media(max-width:768px){
+  main{
+    .container{
+      width: 55%;
+      h1{
+        font-size:40px;
+      }
+      .result{
+        font-size:25px;
+      }
+    }
+  }
+}
+
+
+@media(max-width:576px){
+  main{
+    .container{
+      width: 65%;
+      h1{
+        font-size:30px;
+      }
+      .result{
+        font-size:15px;
+      }
     }
   }
 }
